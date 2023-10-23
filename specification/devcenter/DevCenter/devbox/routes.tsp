@@ -395,7 +395,7 @@ interface DevBoxesOperations {
       actionName: string;
 
       @doc("The time to delay the Dev Box action or actions until.")
-      @projectedName("client", "delayUntil")
+      @projectedName("csharp", "delayUntil")
       @query
       until: utcDateTime;
     },
@@ -420,7 +420,7 @@ interface DevBoxesOperations {
       devBoxName: string;
 
       @doc("The time to delay the Dev Box action or actions until.")
-      @projectedName("client", "delayUntil")
+      @projectedName("csharp", "delayUntil")
       @query
       until: utcDateTime;
     },
