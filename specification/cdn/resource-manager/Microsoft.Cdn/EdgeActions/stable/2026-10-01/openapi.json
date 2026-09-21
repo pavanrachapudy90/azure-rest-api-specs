@@ -127,6 +127,9 @@
         "x-ms-examples": {
           "GetEdgeActionOperation": {
             "$ref": "./examples/EdgeActionOperations_Get.json"
+          },
+          "GetFailedEdgeActionOperation": {
+            "$ref": "./examples/EdgeActionOperations_GetFailed.json"
           }
         }
       }
@@ -667,6 +670,9 @@
         "x-ms-examples": {
           "CreateEdgeActionExecutionFilters": {
             "$ref": "./examples/EdgeActionExecutionFilters_Create.json"
+          },
+          "CreateOrReplaceEdgeActionExecutionFilterAsync": {
+            "$ref": "./examples/EdgeActionExecutionFilters_ReplaceAsync.json"
           }
         },
         "x-ms-long-running-operation-options": {
